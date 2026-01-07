@@ -1,2 +1,2 @@
-# My-to-do-app
+# My todo app
 Level-2 and Task-3
