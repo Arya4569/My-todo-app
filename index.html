@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>✨ Smart To-Do App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📝 Smart To-Do Web App</h1>
+    <p>Plan • Focus • Achieve 🚀</p>
+</header>
+
+<div class="container">
+
+    <!-- ADD TASK -->
+    <div class="todo-form">
+        <h2>➕ Add New Task</h2>
+
+        <input type="text" id="title" placeholder="📌 Task title">
+        <textarea id="description" placeholder="📝 Task description"></textarea>
+
+        <select id="priority">
+            <option value="Low">🟢 Low Priority</option>
+            <option value="Medium">🟡 Medium Priority</option>
+            <option value="High">🔴 High Priority</option>
+        </select>
+
+        <button onclick="addTask()">✅ Save Task</button>
+        <p class="hint">✨ Stay consistent, small steps matter!</p>
+    </div>
+
+    <!-- TASK LIST -->
+    <div class="tasks">
+        <h2>⏳ Pending Tasks</h2>
+        <div id="pending"></div>
+
+        <h2 class="completed-title">🎉 Completed Tasks</h2>
+        <div id="completed"></div>
+    </div>
+
+</div>
+
+<!-- HELP SECTION -->
+<footer>
+    <h3>💡 Need Help?</h3>
+    <p>
+        This app helps you organize daily tasks efficiently.<br>
+        Mark tasks as complete 🎯 and stay productive every day.
+    </p>
+
+    <p>
+        🌐 Visit our site:  
+        <a href="#" target="_blank">www.smarttodo.com</a>
+    </p>
+
+    <p class="footer-msg">💙 Thank you for using our To-Do App!</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
